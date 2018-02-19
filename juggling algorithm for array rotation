@@ -5,6 +5,10 @@ void printArray(int arr[], int size);
 int gcd(int a,int b);
  
 /*Function to left rotate arr[] of siz n by d*/
+
+//  here d is the number of places by which array should be rotated
+
+
 void leftRotate(int arr[], int d, int n)
 {
   int i, j, k, temp;
